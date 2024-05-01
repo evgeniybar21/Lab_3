@@ -1,7 +1,8 @@
 @echo off
+chcp 1251
 setlocal enabledelayedexpansion
 
-REM Перевірка наявності аргументів командного рядка
+REM ГЏГҐГ°ГҐГўВіГ°ГЄГ  Г­Г ГїГўГ­Г®Г±ГІВі Г Г°ГЈГіГ¬ГҐГ­ГІВіГў ГЄГ®Г¬Г Г­Г¤Г­Г®ГЈГ® Г°ГїГ¤ГЄГ 
 if "%~1" == "" (
     echo Must type adress
     goto :EOF
@@ -10,7 +11,7 @@ if "%~1" == "" (
 :Loop
 if "%~1" == "" goto :EndLoop
 
-REM Перевірка, чи існує вказаний каталог
+REM ГЏГҐГ°ГҐГўВіГ°ГЄГ , Г·ГЁ ВіГ±Г­ГіВє ГўГЄГ Г§Г Г­ГЁГ© ГЄГ ГІГ Г«Г®ГЈ
 if not exist "%~1" (
     echo Catalog "%~1" is not found
     goto :NextParam
