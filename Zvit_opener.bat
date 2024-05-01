@@ -1,3 +1,3 @@
 chcp 1251
-start "" "C:\Users\¿‰ÏËÌ\Desktop\‘œÃ\¿ \À‡· 3\«‚≥Ú.docx"
+start "" "C:\Users\–ê–¥–º–∏–Ω\Desktop\–§–ü–ú\–ê–ö\–õ–∞–± 3\–ó–≤—ñ—Ç.docx"
 pause
